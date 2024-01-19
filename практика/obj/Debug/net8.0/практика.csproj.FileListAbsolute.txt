@@ -1,0 +1,35 @@
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\appsettings.json
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\практика.exe
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\практика.deps.json
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\практика.runtimeconfig.json
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\практика.dll
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\практика.pdb
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.csproj.AssemblyReference.cache
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.AssemblyInfoInputs.cache
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.AssemblyInfo.cs
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.csproj.CoreCompileInputs.cache
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\staticwebassets\msbuild.практика.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\staticwebassets\msbuild.build.практика.props
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.практика.props
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.практика.props
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\scopedcss\bundle\практика.styles.css
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.csproj.CopyComplete
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.dll
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\refint\практика.dll
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.pdb
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\практика.genruntimeconfig.cache
+C:\Users\taisi\OneDrive\Рабочий стол\практика\практика\obj\Debug\net8.0\ref\практика.dll
+C:\Users\Mashik\Downloads\Шевелева_Мария\практика\obj\Debug\net8.0\практика.dll
+C:\Users\Mashik\Downloads\Шевелева_Мария\практика\obj\Debug\net8.0\refint\практика.dll
+C:\Users\Mashik\Downloads\Шевелева_Мария\практика\obj\Debug\net8.0\практика.pdb

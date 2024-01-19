@@ -1,0 +1,54 @@
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\lab66666.csproj.AssemblyReference.cache
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\MainWindow.g.cs
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\App.g.cs
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\lab66666_MarkupCompile.cache
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\lab66666_MarkupCompile.lref
+C:\Users\Mashik\source\repos\lab66666\bin\Debug\lab66666.exe.config
+C:\Users\Mashik\source\repos\lab66666\bin\Debug\lab66666.exe
+C:\Users\Mashik\source\repos\lab66666\bin\Debug\lab66666.pdb
+C:\Users\Mashik\source\repos\lab66666\bin\Debug\lab6library6.dll
+C:\Users\Mashik\source\repos\lab66666\bin\Debug\lab6library6.pdb
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\MainWindow.baml
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\lab66666.g.resources
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\lab66666.Properties.Resources.resources
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\lab66666.csproj.GenerateResource.cache
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\lab66666.csproj.CoreCompileInputs.cache
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\lab66666.csproj.CopyComplete
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\lab66666.exe
+C:\Users\Mashik\source\repos\lab66666\obj\Debug\lab66666.pdb
+\\Mac\Home\Downloads\lab66666\bin\Debug\lab66666.exe.config
+\\Mac\Home\Downloads\lab66666\bin\Debug\lab66666.exe
+\\Mac\Home\Downloads\lab66666\bin\Debug\lab66666.pdb
+\\Mac\Home\Downloads\lab66666\bin\Debug\lab6library6.dll
+\\Mac\Home\Downloads\lab66666\bin\Debug\lab6library6.pdb
+\\Mac\Home\Downloads\lab66666\obj\Debug\lab66666.csproj.AssemblyReference.cache
+\\Mac\Home\Downloads\lab66666\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Downloads\lab66666\obj\Debug\App.g.cs
+\\Mac\Home\Downloads\lab66666\obj\Debug\lab66666_MarkupCompile.cache
+\\Mac\Home\Downloads\lab66666\obj\Debug\lab66666_MarkupCompile.lref
+\\Mac\Home\Downloads\lab66666\obj\Debug\MainWindow.baml
+\\Mac\Home\Downloads\lab66666\obj\Debug\lab66666.g.resources
+\\Mac\Home\Downloads\lab66666\obj\Debug\lab66666.Properties.Resources.resources
+\\Mac\Home\Downloads\lab66666\obj\Debug\lab66666.csproj.GenerateResource.cache
+\\Mac\Home\Downloads\lab66666\obj\Debug\lab66666.csproj.CoreCompileInputs.cache
+\\Mac\Home\Downloads\lab66666\obj\Debug\lab66666.csproj.CopyComplete
+\\Mac\Home\Downloads\lab66666\obj\Debug\lab66666.exe
+\\Mac\Home\Downloads\lab66666\obj\Debug\lab66666.pdb
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\bin\Debug\lab66666.exe.config
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\bin\Debug\lab66666.exe
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\bin\Debug\lab66666.pdb
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\bin\Debug\lab6library6.dll
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\bin\Debug\lab6library6.pdb
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\lab66666.csproj.AssemblyReference.cache
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\MainWindow.g.cs
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\App.g.cs
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\lab66666_MarkupCompile.cache
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\lab66666_MarkupCompile.lref
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\MainWindow.baml
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\lab66666.g.resources
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\lab66666.Properties.Resources.resources
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\lab66666.csproj.GenerateResource.cache
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\lab66666.csproj.CoreCompileInputs.cache
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\lab66666.csproj.CopyComplete
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\lab66666.exe
+C:\Users\Mashik\Downloads\lab66666 (2)\lab66666\obj\Debug\lab66666.pdb

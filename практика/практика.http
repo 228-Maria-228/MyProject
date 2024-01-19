@@ -1,0 +1,6 @@
+@практика_HostAddress = http://localhost:5076
+
+GET {{практика_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
