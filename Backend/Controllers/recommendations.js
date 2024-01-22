@@ -1,6 +1,6 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const Recommendation = require('../models/recommendation');
+const Recommendation = require('../models/Recommendation');
 
 const { NODE_ENV, JWT_SECRET } = process.env;
 const { SUCCESS_CODE, CREATE_CODE } = require('../utils/codes');
@@ -8,57 +8,49 @@ const NotCorrectDataError = require('../utils/notCorrectDataError');
 const NotCorrectTokenError = require('../utils/notCorrectTokenError');
 const NotUniqError = require('../utils/notUniqError');
 
-module.exports.getMyInfo = (req, res, next) => {
-  Recommendation.findById(req.body.recommendation_id)
+module.exports.createRecommendation = (req, res) => {
+  Recommendation.create(req.body)
     .then((dataRecommendation) => {
       res.status(SUCCESS_CODE).send({ data: dataRecommendation });
     })
-    .catch((err) => {
-      if (err.name === 'ValidationError' || err.name === 'CastError') {
-        next(new NotCorrectDataError('Data validation error'));
-      }
-      next(err);
-    });
+    .catch(next);
 };
 
-module.exports.updateMyName = (req, res, next) => {
+module.exports.updateRecommendation = (req, res, next) => {
   const { name } = req.body;
 
-  Recommendation.findByIdAndUpdate(req.body.recommendation_id, { name }, {
+  Recommendation.update(req.body, {
     new: true,
     runValidators: true,
   })
     .then((dataRecommendation) => {
       res.status(SUCCESS_CODE).send({ data: dataRecommendation });
     })
-    .catch((err) => {
-      if (err.name === 'ValidationError' || err.name === 'CastError') {
-        next(new NotCorrectDataError('Data validation error'));
-      }
-      if (err.code === 11000) {
-        next(new NotUniqError('Данное имя уже занято'));
-      }
-      next(err);
-    });
+    .catch(next);
 };
 
-module.exports.updateMyTg = (req, res, next) => {
-  const { tg } = req.body;
+module.exports.DeleteRecommendation = (req, res, next) => {
+  const { name } = req.body;
 
-  Recommendation.findByIdAndUpdate(req.body.recommendation_id, { tg }, {
+  Recommendation.delete(req.body, {
     new: true,
     runValidators: true,
   })
     .then((dataRecommendation) => {
       res.status(SUCCESS_CODE).send({ data: dataRecommendation });
     })
-    .catch((err) => {
-      if (err.name === 'ValidationError' || err.name === 'CastError') {
-        next(new NotCorrectDataError('Data validation error'));
-      }
-      if (err.code === 11000) {
-        next(new NotUniqError('Данный tg уже зарегистрирован'));
-      }
-      next(err);
-    });
+    .catch(next);
 };
+
+module.exports.AddRecommendation = (req, res, next) => {
+  const { name } = req.body;
+
+  Recommendation.add(req.body, {
+    new: true,
+    runValidators: true,
+  })
+    .then((dataRecommendation) => {
+      res.status(SUCCESS_CODE).send({ data: dataRecommendation });
+    })
+    .catch(next);
+  };

@@ -36,7 +36,7 @@ module.exports.updateMyName = (req, res, next) => {
         next(new NotCorrectDataError('Data validation error'));
       }
       if (err.code === 11000) {
-        next(new NotUniqError('Данное имя уже занято'));
+        next(new NotUniqError('This name is already occupied'));
       }
       next(err);
     });
@@ -57,7 +57,7 @@ module.exports.updateMyTg = (req, res, next) => {
         next(new NotCorrectDataError('Data validation error'));
       }
       if (err.code === 11000) {
-        next(new NotUniqError('Данный tg уже зарегистрирован'));
+        next(new NotUniqError('This tg is already registered'));
       }
       next(err);
     });
@@ -78,7 +78,7 @@ module.exports.register = (req, res, next) => {
             next(new NotCorrectDataError('Data validation error'));
           }
           if (err.code === 11000) {
-            next(new NotUniqError('Данный email уже зарегистрирован'));
+            next(new NotUniqError('This email is already registered'));
           }
           next(err);
         });
@@ -98,7 +98,7 @@ module.exports.login = (req, res, next) => {
       );
 
       if (!token) {
-        throw new NotCorrectTokenError('Ваш токен некорректный');
+        throw new NotCorrectTokenError('Your token is invalid');
       }
 
       res.send({ token });
