@@ -10,33 +10,39 @@ const NotUniqError = require('../utils/notUniqError');
 
 module.exports.createCountry = (req, res) => {
   Country.create(req.body)
-    .then((dataCountry) => {
-      res.status(SUCCESS_CODE).send({ data: dataCountry });
+    .then((dataAttractions) => {
+      res.status(SUCCESS_CODE).send({ data: dataAttractions });
     })
     .catch(next);
-  }
+};
+
+module.exports.getCountry = (req, res) => {
+    Attractions.find()
+      .then((dataAttractions) => {
+        res.status(SUCCESS_CODE).send({ data: dataAttractions });
+      })
+      .catch(next);
+  };
+
 module.exports.updateCountry = (req, res, next) => {
   const { name } = req.body;
 
-  Country.update(req.body, {
+  Country.update(req.body, {name}, {
     new: true,
     runValidators: true,
   })
-    .then((dataCountry) => {
-      res.status(SUCCESS_CODE).send({ data: dataCountry });
+    .then((dataAttractions) => {
+      res.status(SUCCESS_CODE).send({ data: dataAttractions });
     })
     .catch(next);
 };
 
 module.exports.DeleteCountry = (req, res, next) => {
-  const { name } = req.body;
+  const { _id } = req.body;
 
-  Country.delete(req.body, {
-    new: true,
-    runValidators: true,
-  })
-    .then((dataCountry) => {
-      res.status(SUCCESS_CODE).send({ data: dataCountry });
+  Attractions.findByIdAndDelete({_id})
+    .then((dataAttractions) => {
+      res.status(SUCCESS_CODE).send({ data: dataAttractions });
     })
     .catch(next);
 };

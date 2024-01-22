@@ -16,10 +16,18 @@ module.exports.createPosts = (req, res) => {
     .catch(next);
 };
 
+module.exports.getPosts = (req, res) => {
+    Posts.find()
+      .then((dataPosts) => {
+        res.status(SUCCESS_CODE).send({ data: dataPosts });
+      })
+      .catch(next);
+  };
+
 module.exports.updatePosts = (req, res, next) => {
   const { name } = req.body;
 
-  Posts.update(req.body, {
+  Posts.update(req.body, {name}, {
     new: true,
     runValidators: true,
   })
@@ -30,25 +38,9 @@ module.exports.updatePosts = (req, res, next) => {
 };
 
 module.exports.DeletePosts = (req, res, next) => {
-  const { name } = req.body;
+  const { _id } = req.body;
 
-  Posts.delete(req.body, {
-    new: true,
-    runValidators: true,
-  })
-    .then((dataPosts) => {
-      res.status(SUCCESS_CODE).send({ data: dataPosts });
-    })
-    .catch(next);
-};
-
-module.exports.AddPosts = (req, res, next) => {
-  const { name } = req.body;
-
-  Posts.add(req.body, {
-    new: true,
-    runValidators: true,
-  })
+  Posts.findByIdAndDelete({_id})
     .then((dataPosts) => {
       res.status(SUCCESS_CODE).send({ data: dataPosts });
     })

@@ -16,10 +16,18 @@ module.exports.createRating = (req, res) => {
     .catch(next);
 };
 
+module.exports.getRating = (req, res) => {
+    Rating.find()
+      .then((dataRating) => {
+        res.status(SUCCESS_CODE).send({ data: dataRating });
+      })
+      .catch(next);
+  };
+
 module.exports.updateRating = (req, res, next) => {
   const { name } = req.body;
 
-  Rating.update(req.body, {
+  Rating.update(req.body, {name}, {
     new: true,
     runValidators: true,
   })
@@ -30,25 +38,9 @@ module.exports.updateRating = (req, res, next) => {
 };
 
 module.exports.DeleteRating = (req, res, next) => {
-  const { name } = req.body;
+  const { _id } = req.body;
 
-  Rating.delete(req.body, {
-    new: true,
-    runValidators: true,
-  })
-    .then((dataRating) => {
-      res.status(SUCCESS_CODE).send({ data: dataRating });
-    })
-    .catch(next);
-};
-
-module.exports.AddRating = (req, res, next) => {
-  const { name } = req.body;
-
-  Rating.add(req.body, {
-    new: true,
-    runValidators: true,
-  })
+  Rating.findByIdAndDelete({_id})
     .then((dataRating) => {
       res.status(SUCCESS_CODE).send({ data: dataRating });
     })
